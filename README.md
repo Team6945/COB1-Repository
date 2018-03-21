@@ -9,5 +9,5 @@ Repository for COB1 robot for Children of the Corn.
 - C5 Ramp-down on the teleoperated, UNTESTED. Also, AutoInit (should) select correct command group based on selections from the smartdashboard and randomized game data. - 3/13
 - C6 Removed ramp-down on teleop, doesn't work well. Added overdrive button - 3/14
 
-- Se and PlotSmoothPath - Se uses the forked algorithm from KHEngineering. It basically allows you to set waypoints for the robot to drive through. See 
+- Se and PlotSmoothPath - Se uses the forked algorithm from KHEngineering. It basically allows you to set waypoints for the robot to drive through. See https://github.com/Team6945/SmoothPathPlanner
 
