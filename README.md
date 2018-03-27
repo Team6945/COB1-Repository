@@ -11,5 +11,5 @@ Repository for COB1 robot for Children of the Corn.
 - C8 WORKS - code used in finals of Bridgewater-Raritan event - 3/16
 
 - Se and PlotSmoothPath - Se uses the forked algorithm from KHEngineering. It basically allows you to set waypoints for the robot to drive through. See https://github.com/Team6945/SmoothPathPlanner
-  -S1 has no syntax errors. Logic errors though, maybe...
+-S1 has no syntax errors. Logic errors though, maybe...
 
