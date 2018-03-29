@@ -3,6 +3,7 @@ Repository for COB1 robot for Children of the Corn.
 
 - Se and PlotSmoothPath - Se uses the forked algorithm from KHEngineering. It basically allows you to set waypoints for the robot to drive through. See https://github.com/Team6945/SmoothPathPlanner
   - S1 has no syntax errors. Logic errors though, maybe...
+  - Use TestSmoothPath to see if the command works for the pathplanner 
 
 - P9 - first week comp - 3/12
 - C1 must be edited; should work, so autonomous can be selected based on game data - 3/12
