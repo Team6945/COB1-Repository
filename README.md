@@ -5,6 +5,9 @@ Repository for COB1 robot for Children of the Corn.
   - S1 has no syntax errors. Logically should work (tested in another program)
   - S2 - added TenFeet command to calibrate max Velocity of the robot for AutoPath
   - S3 added possible paths to use and appropriate selector. Once maxV is calculated, modify times for max efficiency.
+    - some angles in the auto Twice might need negatives
+  - S3pidturn - S3 edited to use pid turning for auto Twice commands (in case the robot turns when taking from the pyramid). 
+    - needs to be tuned; if not working, scrap it 
 
 - P9 - first week comp - 3/12
 - C1 must be edited; should work, so autonomous can be selected based on game data - 3/12
