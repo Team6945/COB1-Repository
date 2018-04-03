@@ -1,0 +1,20 @@
+Smooth Auto Waypoints
+starting positions - 
+- P1 - 1,23
+- P2 - 1,13
+- P3 - 1,4
+
+Paths: (*=graph checked with 6 maxV) (recheck after maxV found)
+*AP1LScale - 1,23-19,23  -24,22 
+*AP1RScale - 1,23-19.5,23-19.5,6 -24,6
+*AP3LScale - 1,4 -19.5,4 -19.5,21-24,21
+*AP3RScale - 1,4 -19,4   -24,5
+
+*AP2RSwitch - 1,13-4,13-7,9-11.5,9
+*AP2LSwitch - 1,13-4,13-7,18 -11.5,18
+
+*AP2RSwitchTwice - AP2RSwitch-wristUp-11,9-10,9  -turn -90-wristDown - 11,9-11,12
+*AP2LSwitchTwice - AP2LSwitch-wristUp-11,18-10,18-turn 90 -wristDown - 11,18-11,15
+
+*AP1LSwitch - 1,23-14,23-14,20 
+*AP3RSwitch - 1,4- 14,4 -14,7
