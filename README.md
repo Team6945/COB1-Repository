@@ -21,3 +21,4 @@ Repository for COB1 robot for Children of the Corn.
 - C11 adds switch capabilities to driver station 1 and 3 in auto, providing that the friendly switch is on that side
 
 - T1 is a copy of C11, adds timer to smartdashboard
+- T2 replaces the count down timer with a count up for showcases and races. Also inverts the right block sucker motor due to new wiring
