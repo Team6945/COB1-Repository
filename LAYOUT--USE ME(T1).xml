@@ -1,0 +1,163 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Label" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="443" y="919"/>
+	</widget>
+	<widget field="WristPID" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="424" y="874"/>
+	</widget>
+	<widget field="Winch" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="431" y="844"/>
+	</widget>
+	<widget field="BlockSucker" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="429" y="820"/>
+	</widget>
+	<widget field="Lift" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="455" y="791"/>
+	</widget>
+	<widget field="Drivetrain" type="Subsystem" class="edu.wpi.first.smartdashboard.gui.elements.Subsystem">
+		<location x="433" y="758"/>
+	</widget>
+	<widget field="" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="26" y="23"/>
+		<width>174</width>
+		<height>28</height>
+		<property name="Font Size" value="18"/>
+	</widget>
+	<widget field="Status" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1351" y="15"/>
+		<width>552</width>
+		<height>245</height>
+		<property name="Font Size" value="75"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="4" y="300"/>
+		<width>371</width>
+		<height>322</height>
+		<property name="Image File" value="C:\Users\Children of the Corn\Pictures\corn.jpg"/>
+		<property name="Maintain Aspect Ratio" value="true"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="377" y="1"/>
+		<width>972</width>
+		<height>725</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<widget field="Auto Chooser" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="17" y="164"/>
+	</widget>
+	<widget field="Bot's Location" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="17" y="60"/>
+	</widget>
+	<widget field="Timer" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1353" y="270"/>
+		<width>552</width>
+		<height>301</height>
+		<property name="Font Size" value="300"/>
+	</widget>
+</dashboard>
+<live-window>
+	<widget field="Lift" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<location x="0" y="611"/>
+	</widget>
+	<widget field="Winch" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<location x="0" y="585"/>
+	</widget>
+	<widget field="Drivetrain" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<location x="0" y="863"/>
+	</widget>
+	<widget field="BlockSucker" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<location x="0" y="837"/>
+	</widget>
+	<widget field="WristPID" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<widget field="PIDController" type="Table" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+			<location x="0" y="0"/>
+			<height>0</height>
+			<width>0</width>
+		</widget>
+		<widget field="PIDController" type="Table" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+			<location x="0" y="0"/>
+			<height>0</height>
+			<width>0</width>
+		</widget>
+		<location x="0" y="26"/>
+		<width>184</width>
+		<height>197</height>
+	</widget>
+	<widget field="Ungrouped" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<widget field="AnalogPotentiometer[0]" type="Table" class="edu.wpi.first.smartdashboard.livewindow.elements.SingleNumberDisplay">
+			<location x="0" y="0"/>
+			<height>0</height>
+			<width>0</width>
+		</widget>
+		<widget field="AnalogPotentiometer[0]" type="Table" class="edu.wpi.first.smartdashboard.livewindow.elements.SingleNumberDisplay">
+			<location x="0" y="0"/>
+			<height>0</height>
+			<width>0</width>
+		</widget>
+		<widget field="Encoder[1]" type="Quadrature Encoder" class="edu.wpi.first.smartdashboard.livewindow.elements.EncoderDisplay">
+			<location x="6" y="18"/>
+			<height>106</height>
+			<width>309</width>
+		</widget>
+		<widget field="DigitalInput[0]" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="124"/>
+			<height>22</height>
+			<width>309</width>
+		</widget>
+		<widget field="Talon SRX [9]" type="Speed Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+			<location x="6" y="146"/>
+			<height>51</height>
+			<width>309</width>
+		</widget>
+		<widget field="Talon SRX [10]" type="Speed Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+			<location x="6" y="197"/>
+			<height>51</height>
+			<width>309</width>
+		</widget>
+		<widget field="SpeedControllerGroup[3]" type="Speed Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+			<location x="6" y="248"/>
+			<height>51</height>
+			<width>309</width>
+		</widget>
+		<widget field="DigitalInput[1]" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="299"/>
+			<height>22</height>
+			<width>309</width>
+		</widget>
+		<widget field="Encoder[0]" type="Quadrature Encoder" class="edu.wpi.first.smartdashboard.livewindow.elements.EncoderDisplay">
+			<location x="6" y="321"/>
+			<height>106</height>
+			<width>309</width>
+		</widget>
+		<widget field="ADIS16448_IMU" type="Gyro" class="edu.wpi.first.smartdashboard.gui.elements.Compass">
+			<location x="6" y="427"/>
+			<height>150</height>
+			<width>309</width>
+		</widget>
+		<widget field="Encoder[2]" type="Quadrature Encoder" class="edu.wpi.first.smartdashboard.livewindow.elements.EncoderDisplay">
+			<location x="6" y="577"/>
+			<height>106</height>
+			<width>309</width>
+		</widget>
+		<widget field="Talon SRX [6]" type="Speed Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+			<location x="6" y="683"/>
+			<height>51</height>
+			<width>309</width>
+		</widget>
+		<widget field="Talon SRX [7]" type="Speed Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+			<location x="6" y="734"/>
+			<height>51</height>
+			<width>309</width>
+		</widget>
+		<widget field="DigitalInput[10]" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="785"/>
+			<height>22</height>
+			<width>309</width>
+		</widget>
+		<location x="0" y="0"/>
+		<width>321</width>
+		<height>814</height>
+	</widget>
+</live-window>
+</xml>
