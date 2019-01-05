@@ -8,6 +8,8 @@ Repository for COB1 robot for Children of the Corn.
     - some angles in the auto Twice might need negatives
   - S3pidturn - S3 edited to use pid turning for auto Twice commands (in case the robot turns when taking from the pyramid). -4/2
     - needs to be tuned; if not working, scrap it 
+    
+   -SFINAL: working smooth path program - multipliers set for COB1
 
 - P9 - first week comp - 3/12
 
